@@ -1,0 +1,83 @@
+body{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	background-color: #e6fff2;
+	margin: 0;
+}
+
+#content {
+	margin-left: 350px;
+	margin-right: 20px;
+}
+
+#mytitle{
+	font-size: 50px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+#passy{
+	padding-bottom: 30px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tablecontents{
+	border: 5px solid #0047b3;
+	background-color: #91b1e2;
+	padding-left: 10px;
+	padding-right: 10px;
+	/* float: left; */
+	position: fixed;
+	overflow-y: auto;
+	
+	height: 100%;
+	line-height: 40px;
+	top: 0;
+	/*verify numbers and change to letters or just dots?*/
+}
+
+
+h2{
+	text-decoration: underline;
+	color: #0047b3;
+}
+
+#introlove{
+	text-align: center;
+	border: 5px dotted #0047b3;
+	padding: 10px;
+}
+
+h3{
+	font-style: italic;
+}
+
+#tagcommonvocab, #verbsubjects{
+	color: #ff9900;
+	font-weight: bold; 
+}
+
+table, th, td{
+	border: 2px solid #000000;
+	border-collapse: collapse;
+}
+
+th{
+	text-align: center;
+	padding: 15px;
+}
+
+#tabletitle{
+	padding: 15px;
+	font-weight: bold;
+	text-align: center;
+	
+}
+
+#miaototop{
+	float: right;
+	bottom: 35px;
+	right: 35px;
+	position: fixed;
+}
